@@ -1,0 +1,8 @@
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 35px;
+  padding: 17px 52px;
+}

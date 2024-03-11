@@ -1,0 +1,17 @@
+.tasks {
+  padding: 7px 40px;
+  margin: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  flex-direction: row;
+  margin-left: auto;
+}
+.card {
+  margin-bottom: 30px;
+}
+.Buttons {
+  justify-content: space-between;
+}
