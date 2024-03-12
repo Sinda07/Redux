@@ -37,7 +37,7 @@ export let TaskReducer = (state = initialState, action) => {
       return {
         ...state,
         tasks: state.tasks.map((task, index) =>
-          task.id == payload
+          task.id == payload.id
             ? { ...task, description: payload.description }
             : task
         ),
